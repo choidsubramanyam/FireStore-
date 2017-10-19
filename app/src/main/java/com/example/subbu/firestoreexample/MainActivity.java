@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 isrotated = !isrotated;
 
-               //First Version
+               //Master Version
 
                // imageView.setImageResource(isrotated?R.drawable.arrow_down:R.drawable.arrow_top);
                 final AnimatedVectorDrawableCompat drawableCompat= (AnimatedVectorDrawableCompat) imageView.getDrawable();
